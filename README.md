@@ -2,6 +2,9 @@
 
 This repository contains my experimental proof-of-concept code for controlling selected ZEN-Core synth parameters in Roland MC-101 and MC-707 grooveboxes using MIDI SysEx messages over serial port. Requires a hardware serial-to-MIDI converter.
 
+Please see the updated version in my follow-up project:
+https://github.com/Locriana/mctools_basic
+
 Roland does not officially document SysEx parameter control for the MC-101 and MC-707 in the same way as for some other ZEN-Core instruments, but after some testing and reverse engineering I found that the MC grooveboxes do respond to Roland-style SysEx messages such as `Data Request 1` and `Data Set 1` / `DT1`.
 
 The goal of this project is to document what I found and to share a starting point for further experiments.
